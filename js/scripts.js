@@ -10,6 +10,7 @@ $(function () {
       };
     });
 
+    $("#new-sentence").text(array2.reverse().join(" "));
 
     event.preventDefault();
   });
